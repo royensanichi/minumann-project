@@ -1,0 +1,7 @@
+Goals :
+
+- Single Page App where it only shows Menu and Price
+- no details needed, Gambar Minuman, Nama dan Harga aja (trus ada tombol add to cart)
+- Menu is on Sidebar, Extend-able, Logo on Top, and Keranjang Button (no margin size) on very bottom
+- Keranjang Button do pop-up in Modal, showing list menu ordered (with Type to make it neat-er) and the price
+-   
