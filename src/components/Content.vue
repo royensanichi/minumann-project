@@ -1,6 +1,33 @@
 <script setup lang="ts">
 import { useDrinkStore } from '@/stores/drinkStore'
 
+const Tea = [
+  {
+    name: 'S-Tea',
+    description: 'A soothing beverage made from the leaves of the Camellia sinensis plant.',
+    price: 8000,
+    image: 'https://example.com/tea.jpg',
+  },
+  {
+    name: 'Herbal Tea',
+    description: 'A caffeine-free infusion made from a variety of herbs and spices.',
+    price: 38000,
+    image: 'https://example.com/herbal-tea.jpg',
+  },
+  {
+    name: 'Green Tea',
+    description: 'A refreshing beverage made from unoxidized tea leaves.',
+    price: 9000,
+    image: 'https://example.com/green-tea.jpg',
+  },
+  {
+    name: 'Mango-Green Tea',
+    description: 'A chilled beverage made from brewed tea, served over ice.',
+    price: 45000,
+    image: 'https://example.com/iced-tea.jpg',
+  },
+]
+
 // Access store
 const drinkStore = useDrinkStore()
 </script>
@@ -12,6 +39,16 @@ const drinkStore = useDrinkStore()
         {{ drinkStore.selectedDrink }} Menu
       </h2>
 
+      <ul>
+        {Tea.map((item) => (
+        <li key="{item.name}">
+          <h3>{item.name}</h3>
+          <p>{item.description}</p>
+          <p>Price: {item.price}</p>
+          <img src="{item.image}" alt="{item.name}" />
+        </li>
+        ))}
+      </ul>
       <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <div class="group relative">
           <img
