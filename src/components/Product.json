@@ -1,0 +1,106 @@
+{
+  "OurSignature": [
+    {
+      "name": "Signature Tea",
+      "description": "A unique blend of premium tea leaves.",
+      "price": 10000,
+      "image": "/img//signature-tea.webp"
+    },
+    {
+      "name": "Signature Coffee",
+      "description": "A rich and aromatic coffee blend.",
+      "price": 12000,
+      "image": "/img//signature-coffee.webp"
+    },
+    {
+      "name": "Signature Juice",
+      "description": "A refreshing blend of seasonal fruits.",
+      "price": 15000,
+      "image": "/img//signature-juice.webp"
+    },
+    {
+      "name": "Minuman Yukk Signature ",
+      "description": "A chilled beverage made from brewed tea, served over ice.",
+      "price": 15000,
+      "image": "/img//signature-iced-tea.webp"
+    }
+  ],
+  "Tea": [
+    {
+      "name": "S-Tea",
+      "description": "A soothing beverage made from the leaves of the Camellia sinensis plant.",
+      "price": 8000,
+      "image": "/img/tea/icetea.webp"
+    },
+    {
+      "name": "Herbal Tea",
+      "description": "A caffeine-free infusion made from a variety of herbs and spices.",
+      "price": 38000,
+      "image": "/img/tea/herbaltea.webp"
+    },
+    {
+      "name": "Green Tea",
+      "description": "A refreshing beverage made from unoxidized tea leaves.",
+      "price": 9000,
+      "image": "/img/tea/greentea.webp"
+    },
+    {
+      "name": "Mango-Green Tea",
+      "description": "A chilled beverage made from brewed tea, served over ice.",
+      "price": 45000,
+      "image": "/img/tea/mangogreentea.webp"
+    }
+  ],
+  "Coffee": [
+    {
+      "name": "Espresso",
+      "description": "A strong and bold coffee brewed by forcing hot water through finely-ground coffee.",
+      "price": 20000,
+      "image": "img/coffee/espresso.webp"
+    },
+    {
+      "name": "Cappuccino",
+      "description": "A rich coffee drink topped with steamed milk and froth.",
+      "price": 25000,
+      "image": "img/coffee/cappuccino.webp"
+    },
+    {
+      "name": "Latte",
+      "description": "A smooth coffee drink made with espresso and steamed milk.",
+      "price": 22000,
+      "image": "/img/coffee/latte.webp"
+    },
+    {
+      "name": "Mocha",
+      "description": "A chocolate-flavored variant of a latte.",
+      "price": 27000,
+      "image": "/img/coffee/mochaccino.webp"
+    }
+  ],
+  "Juice": [
+    {
+      "name": "Orange Juice",
+      "description": "A refreshing juice made from fresh oranges.",
+      "price": 15000,
+      "image": "/img//orange-juice.webp"
+    },
+    {
+      "name": "Apple Juice",
+      "description": "A sweet juice made from fresh apples.",
+      "price": 12000,
+      "image": "/img//apple-juice.webp"
+    },
+    {
+      "name": "Carrot Juice",
+      "description": "A healthy juice made from fresh carrots.",
+      "price": 18000,
+      "image": "/img//carrot-juice.webp"
+    },
+    {
+      "name": "Mixed Fruit Juice",
+      "description": "A delicious blend of various fruits.",
+      "price": 20000,
+      "image": "/img//mixed-fruit-juice.webp"
+    }
+  ]
+}
