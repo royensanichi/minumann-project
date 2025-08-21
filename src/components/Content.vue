@@ -23,19 +23,19 @@ const productsToShow = computed(() => {
 </script>
 
 <template>
-  <div class="p-12">
-    <div class="rounded">
-      <h2 class="text-4xl font-bold tracking-tight text-gray-900 font-montserrat">
-        "{{ drinkStore.selectedDrink }}" Menu
+  <div class="p-4">
+    <div class="p-4 rounded-xl bg-gray-200">
+      <h2 class="p-2 text-3xl tracking-tight text-gray-900">
+        <b> "{{ drinkStore.selectedDrink }}" Menu</b>
       </h2>
-
-      <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <hr class="my-4 border-gray-300 h-2" />
+      <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         <!-- the menu items -->
-        <div v-for="item in productsToShow" :key="item.name" class="group relative bg-gray-800">
+        <div v-for="item in productsToShow" :key="item.name" class="group relative">
           <img
             :src="item.image"
             alt="Front of men's Basic Tee in black."
-            class="aspect-square w-full rounded-md bg-gray-200 object-fit group-hover:opacity-75 lg:aspect-auto lg:h-90"
+            class="aspect-square w-full rounded-md object-cover lg:aspect-auto lg:h-90 opacity-0 animate-[fadeIn_0.3s_ease-in-out_forwards]"
           />
           <div class="mt-2 flex justify-between">
             <div>
