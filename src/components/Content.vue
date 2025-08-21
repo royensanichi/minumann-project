@@ -25,7 +25,7 @@ const productsToShow = computed(() => {
 <template>
   <div class="p-12">
     <div class="rounded">
-      <h2 class="text-4xl font-bold tracking-tight text-gray-900">
+      <h2 class="text-4xl font-bold tracking-tight text-gray-900 font-montserrat">
         "{{ drinkStore.selectedDrink }}" Menu
       </h2>
 
@@ -35,7 +35,7 @@ const productsToShow = computed(() => {
           <img
             :src="item.image"
             alt="Front of men's Basic Tee in black."
-            class="aspect-square w-full rounded-md bg-gray-200 object-contain group-hover:opacity-75 lg:aspect-auto lg:h-90"
+            class="aspect-square w-full rounded-md bg-gray-200 object-fit group-hover:opacity-75 lg:aspect-auto lg:h-90"
           />
           <div class="mt-2 flex justify-between">
             <div>
